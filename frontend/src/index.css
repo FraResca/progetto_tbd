@@ -1,0 +1,6 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@tailwind heroicon;
+@tailwind headlessui;
+@tailwind react-alice-carousel;

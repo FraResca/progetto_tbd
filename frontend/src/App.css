@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    height: 100%;
+    position: relative;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 50px; /* Adjust as needed */
+    background-color: black; /* Adjust as needed */
+    text-align: center;
+    color: white; /* Adjust as needed */
+    z-index: 100; /* Ensure the header is above other content */
+}
+
+.main-content {
+    padding-top: 50px; /* Equal to the height of the header */
+    padding-bottom: 50px; /* Equal to the height of the footer */
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 50px; /* Adjust as needed */
+    background-color: black; /* Adjust as needed */
+    text-align: center;
+    color: white; /* Adjust as needed */
+}
